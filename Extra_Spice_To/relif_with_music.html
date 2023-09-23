@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="relif.css">
+</head>
+<body style="background-image: url(bg.webp); background-size: cover;"><h1 style="font-family: fantasy; text-align: center;">Hurry up!<br></h1>
+    <h1 style="font-family: fantasy;text-align: center;">To Refresh yourself with Sangeet!</h1>
+    <div style="margin-top: 70px; margin-left: 530px;">
+        <a href="https://open.spotify.com/" target="_blank"><button style="background-size: cover; border: none;"><img src="spotify.jpg" style="width: 150px; height: 90px;"></button></a>
+        <a href="https://gaana.com/"  target="_blank><button style="background-color: none;border: none;"><img src="gaana.jpeg" alt="" style="width: 150px; height: 90px;"></button></a>
+    </div>
+    <div style="margin-left: 570px; margin-top: 120px;"><button onclick="play1()" style="font-family: fantasy; padding: 7px;color: rgb(36, 218, 234);background-color: black;">Relaxation</button>
+        <button onclick="play2()" style="font-family: fantasy;padding: 7px;color: rgb(66, 212, 73);background-color: black;">Sleep</button>
+        <button onclick="play3()" style="font-family: fantasy;padding: 7px;color: rgb(189, 189, 42);background-color: black;">Nature</butt>
+    </div>
+    <script>
+        function play1(){
+            const music = new Audio("relaxing-145038.mp3");
+                music.play();
+        }
+        function play2(){
+            const music = new Audio("the-cradle-of-your-soul-15700.mp3");
+                music.play();
+        }
+        function play3(){
+            const music = new Audio("voice-of-nature-20683.mp3");
+                music.play();
+        }
+    </script>
+</body>
+</html>
